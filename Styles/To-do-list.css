@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: grey;
+    color: aliceblue;
+}
+
+.todo-grid, .todo-input-grid {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    column-gap: 3vw;
+    row-gap: 10px;
+}
+
+.todo-input-grid {
+    margin-bottom: 10px;
+}
+
+.header {
+    font-weight: 900;
+    font-size: 6vw;
+    text-align: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.name-input, .due-date-input, .todo-grid {
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 50px;
+    margin-left: 20px;
+}
+
+.name-input, .due-date-input {
+    height: 50px;
+    border-radius: 20px;
+}
+
+.todo-grid {
+    margin-top: 20px;
+} 
+
+.todo-grid > p {
+    height: 50px;
+    padding-left: 30px;
+}
+
+.todo-grid > button {
+    height: 50px;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: ease-in 5ms;
+    width: 25vw;
+}
+
+.add-button {
+    height: 50px;
+    color: aliceblue;
+    border-color: aliceblue;
+    border-style: solid;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    transition: ease-in 5ms;
+    width: 25vw;
+    margin-left: 70px;
+}
+
+.todo-grid > button:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.add-button:hover {
+    background-color: aliceblue;
+    color: black;
+}
